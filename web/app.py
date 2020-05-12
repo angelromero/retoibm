@@ -31,12 +31,5 @@ def do_sum(sumando01,sumando02):
                                 'resultado': i.resultado
                               } for i in posts])
 
-def serialize(self):
-    return {
-        'sumando01': self.sumando01,
-        'sumando02': self.sumando02,
-        'resultado': self.resultado
-    }
-
 if __name__ == '__main__':
     app.run()
